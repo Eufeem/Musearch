@@ -1,0 +1,181 @@
+/* ----- BARRA NAVEGACIÓN ----- */
+.navbar {
+    background: #000003;
+    margin-bottom: 0;
+    border: 0;
+    letter-spacing: 2px;
+    border-radius: 0;
+    font-weight: bold;
+    height: 1px;
+    opacity: .80;
+    transition-duration: .7s;
+}
+
+.navbar-default, .navbar-static-top{
+    background-image: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a, .navbar-nav li.active a {
+    transition-duration: .7s;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #ef5350 !important;
+    border-bottom: 1px solid #ef5350;
+}
+
+/* ----- JUMBOTRON ----- */
+.jumbotron {
+    background: transparent;
+    background-image: none;
+    color: #fff;
+    padding: 50px;
+}
+
+/* ----- CAROUSEL ----- */
+.carousel-inner > .item, .active {
+    color: #fff;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #fff;
+}
+
+.carousel-indicators li {
+    border-color: #fff;
+}
+
+.carousel-indicators li.active {
+    background-color: #e53935;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+/* ----- ENCABEZADOS ----- */
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+
+.hdr {
+    color: #e53935;
+}
+
+/* ----- CONTENIDO ----- */
+.gris {
+    background: #eee;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.encabezado {
+    background-image: url("../images/portada.jpg");
+}
+
+.bg-grey {
+    background-color: #212121;
+}
+
+.bg-white {
+    background-color: #fff;
+    border: .2px solid #ccc;
+}
+
+.container > .row > .col-md-12 {
+    border-bottom: 2px solid #ef5350;
+    padding-bottom: 20px;
+}
+
+.container > .row > .col-md-9 {
+    border-left: 5px solid #ef5350;
+}
+
+.container > .row > .col-md-3 {
+    border-left: 5px solid #ef5350;
+    border-right: 5px solid #ef5350;
+}
+
+.imgPrincipal {
+    width: 715px;
+    height: 170px;
+    margin: auto;
+}
+
+.imgLogo {
+    width: 100px;
+    height: 51px;
+    margin: auto;;
+}
+
+.container > .row > .col-md-9 > img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container >.row >.col-md-3 > img {
+    margin: auto;
+    height: 140px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container > .row > .post {
+    width: 700px;
+    margin: auto;
+}
+
+.container-fluid > h2 {
+    color: #fff;
+}
+
+/* ----- PIE DE PÁGINA ----- */
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.slideanim {visibility:hidden;}
+
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+
+@keyframes slide {
+    0% {
+    opacity: 0;
+    transform: translateY(70%);
+    }
+    100% {
+    opacity: 1;
+    transform: translateY(0%);
+    }
+    }
+    @-webkit-keyframes slide {
+    0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+    }
+    100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    }
+}

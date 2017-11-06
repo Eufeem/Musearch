@@ -1,0 +1,29 @@
+.bg-grey {
+    background: #eee;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    letter-spacing: 2px;
+    border-radius: 0;
+    font-weight: bold;
+    height: 1px;
+}
+
+.lateral >.col-md-3 {
+    border: 1px solid #ccc;
+    background: #fff;
+    height: 620px;
+}
+
+.col-md-9 > .container {
+    border: 1px solid #ccc;
+    background: #fff;
+    width: auto;
+}
+
+.col-md-3 > .btn {
+    width: 260px;
+    margin: auto;
+}
